@@ -1,2 +1,2 @@
 lang='python'
-print(lang[0],lang[2])
+print(lang[0],lang[3])
