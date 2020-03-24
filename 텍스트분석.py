@@ -13,3 +13,4 @@ top5_frequency=[t[1] for t in top5]
 pyplot.bar(top5_words, top5_frequency)
 pyplot.xlabel('Word')
 pyplot.ylabel('Frequency')
+pyplot.show()
