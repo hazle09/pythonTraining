@@ -14,5 +14,4 @@ pyplot.bar(top5_words, top5_frequency)
 pyplot.xlabel('Word')
 pyplot.ylabel('Frequency')
 
-
 pyplot.show()
