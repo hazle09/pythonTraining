@@ -7,7 +7,7 @@ source=BeautifulSoup(urlopen(url),'html.parser')
 target=source.find_all('li',{'class':'toclevel-1'})
 body=source.find('div',{'id':'bodyContent'})
 paragraphs=body.find_all('p')
-웨
+
 for p in paragraphs:
     print(p.get_text().strip())
     break
